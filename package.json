@@ -1,0 +1,29 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "Cool book app",
+  "keywords": [
+    "books"
+  ],
+  "license": "ISC",
+  "author": "Nicolai Sova",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "on-change": "^5.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "eslint": "^9.32.0",
+    "globals": "^16.3.0",
+    "rollup": "^4.46.2",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
